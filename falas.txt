@@ -1,0 +1,76 @@
+
+
+## intent:helpSalesPerformance
+- Which is the [top](order:ascending) performing [sales](flag) officer for [last 6 months](time:2019-07-24T00:00:00.000+05:30) based on [amount](type:amount)?
+- Which is the [worst](order:descending) performing [sales](flag) officer for [last 1 year](time:2019-07-24T00:00:00.000+05:30) based on [count](type)?
+- Who is the [top](order:ascending) performing [sales](flag) officer for [Karnataka](region)?
+
+## intent:helpMonthlySalesPerformance
+- Get me [monthly](time) sales performance of sales officer [Krishnamurthy](PERSON)
+- Get me [yearly](time) sales performance of the sales officer [Pranav](PERSON)
+- Get me [quarterly](time) sales performance of sales officer [Adithya](PERSON)
+- show me [weekly](time) sales performance of sales officer [Balu](PERSON)
+
+## intent:helpLiveLoans
+- Get me the total [live](ref_time:current) [loans](type:count) as of [last Tuesday](time)
+- Get me the total [live](ref_time:current) [loans](type:count) as of [last year](time)
+- How many [loans](type:count) created in the [last year](time) are still [active](ref_time:current)?
+- What is the [count](type:count) of [live](ref_time:current) loans as of [April 2019](time)?
+- show me the total [live](ref_time:current) [loans](type:count) as of [last year](time)
+- give me the total [live](ref_time:current) [loans](type:count) as of [last year](time)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## synonym:2019-07-24T00:00:00.000+05:30
+- hoje
+- Semana Anterior
+- ano passado
+- último exercício financeiro
+- mês passado
+- Ultimo quarto
+- ontem
+- janeiro de 2018
+
+## synonym:amount
+- quantidade total de npa
+- montante total de empréstimos
+- montante total do empréstimo
+- muitos NPAs
+- muito npas
+- muito npa
+
+## synonym:count
+- npa total
+- empréstimos totais
+- empréstimo total
+- muitos NPAs
+- muitos npas
+- muitos npa
+- empréstimo
+- empréstimos
+
+## synonym:disbursed
+- desembolsado
+- desembolsar
+- desembolsado
+
+## synonym:foreclosed
+- excluído
+- encerrar
+- quatro perto

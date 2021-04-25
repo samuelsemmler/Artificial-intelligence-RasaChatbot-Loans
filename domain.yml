@@ -1,0 +1,81 @@
+%YAML 1.1
+---
+actions:
+- action_get_getNPA
+- action_get_getNPAForeclosed
+- action_get_getTimeBasedLoanDisbursed
+- action_slot_reset
+- utter_anything_else
+- utter_ask_help
+- utter_bye
+- utter_default
+- utter_did_that_help
+- utter_greet
+- utter_happy
+entities:
+- closure
+- time
+- type
+- flag
+- region
+- order
+- PERSON
+- ref_time
+intents:
+- deny
+- helpNPA
+- greet
+- affirm
+- helpNPAForeclosed
+- helpTimeBasedLoanDisbursed
+- stop
+- bye
+slots:
+  closure:
+    initial_value: ''
+    type: text
+  time:
+    initial_value: ''
+    type: text
+  type:
+    initial_value: 'count'
+    type: text
+  flag:
+    initial_value: ''
+    type: text
+  region:
+    initial_value: 'all'
+    type: text
+  order:
+    initial_value: ''
+    type: text
+  PERSON:
+    initial_value: ''
+    type: text
+  ref_time:
+    initial_value: ''
+    type: text
+responses:
+  utter_anything_else:
+  - text: Não se preocupe. Posso ajudar em mais alguma coisa?
+  - text: Não se preocupe. Você gostaria de perguntar mais alguma coisa?
+  - text: Fico feliz em ajudar. Quer perguntar mais alguma coisa?
+  utter_ask_help:
+  - text: Como posso ajudá-lo?
+  - text: Em que posso ajudá-lo?
+  - text: Qual é a sua consulta?
+  utter_bye:
+  - text: Tchau, tenha um ótimo dia!
+  utter_default:
+  - text: Não tenho certeza do que você deseja
+  - text: Sinto muito, mas não estou conseguindo pegar você.
+  - text: Minhas desculpas, mas não consigo entender
+  utter_did_that_help:
+  - text: Isso te ajudou?
+  utter_greet:
+  - text: Ei!
+  - text: Olá!
+  - text: Oi!
+  - text: Olá!
+  utter_happy:
+  - text: Ótimo, continue!
