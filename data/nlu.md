@@ -12,6 +12,8 @@
 
 ## intent:bye
 - Tchau
+- Tchau
+- tchau
 - Adeus
 - Até logo
 - Tchau bot
@@ -56,27 +58,37 @@
 
 ## intent:helpNPA
 - me consiga [npa total](type:count) a partir de [hoje](time:2019-07-24T00:00:00.000+05:30)
+- me consiga [npas total](type:count) a partir de [hoje](time:2019-07-24T00:00:00.000+05:30)
 - [npa total](type:count) de [ontem](time:2019-07-24T00:00:00.000+05:30)
 - me consiga [npa total](type:count) do [último mês](time:2019-07-24T00:00:00.000+05:30)
+- me consiga [npas total](type:count) do [último mês](time:2019-07-24T00:00:00.000+05:30)
 - qual é a [quantidade total de npa](type:amount) a partir da [semana passada](time:2019-07-24T00:00:00.000+05:30)
+- qual é a [quantidade total de npas](type:amount) a partir da [semana passada](time:2019-07-24T00:00:00.000+05:30)
 - diga-me [quantidade total de npa](type:amount) de [hoje](time:2019-07-24T00:00:00.000+05:30)
+- diga-me [quantidade total de npas](type:amount) de [hoje](time:2019-07-24T00:00:00.000+05:30)
 - obter-me [quantidade total de npa](type:amount) de [hoje](time:2019-07-24T00:00:00.000+05:30)
 - [npa total](type:count) [ontem](time:2019-07-24T00:00:00.000+05:30)
 
 ## intent:helpNPAForeclosed
-- quantos [NPAs](type:count) tem que ser [excluído](closure) no [ano passado](time:2019-07-24T00:00:00.000+05:30)
-- quantos [NPAs](type:count) tem que ser [excluído](closure) no [último ano financeiro](time:2019-07-24T00:00:00.000+05:30)
+- quantos [NPAs](type:count) foram [excluído](closure) no [ano passado](time:2019-07-24T00:00:00.000+05:30)
+- quantos [NPAs](type:count) foram [excluídos](closure) no [ano passado](time:2019-07-24T00:00:00.000+05:30)
+- quantos [NPAs](type:count) foram [excluído](closure) no [último ano financeiro](time:2019-07-24T00:00:00.000+05:30)
+- quantos [NPAs](type:count) foram [excluídos](closure) no [último ano financeiro](time:2019-07-24T00:00:00.000+05:30)
 - quantos [npas](type:count) tem estado [excluído](closure) [hoje](time:2019-07-24T00:00:00.000+05:30)
-- quantos [NPAs](type:amount) tem que ser [excluído](closure) no [mês passado](time:2019-07-24T00:00:00.000+05:30)
+- quantos [NPAs](type:amount) foram [excluído](closure) no [mês passado](time:2019-07-24T00:00:00.000+05:30)
+- quantos [NPAs](type:amount) foram [excluídos](closure) no [mês passado](time:2019-07-24T00:00:00.000+05:30)
 - quantos [npas](type:amount) tem estado [excluído](closure) [ontem](time:2019-07-24T00:00:00.000+05:30)
 
 ## intent:helpTimeBasedLoanDisbursed
 - me pega [empréstimos totais](type:count) [desembolsado](flag) no [último mês](time:2019-07-24T00:00:00.000+05:30)
+- me pega [empréstimos totais](type:count) [desembolsados](flag) no [último mês](time:2019-07-24T00:00:00.000+05:30)
 - me pega [empréstimos totais](type:count) [desembolsado](flag) no [último mês do último ano](time:2019-07-24T00:00:00.000+05:30)
-- me pega a [quantidade total de empréstimos](type:amount) [desembolsado](flag) no [mesmo mês do ano passado](time:2019-07-24T00:00:00.000+05:30)
-- me pega [empréstimos totais](type:count) [desembolsado](flag) no mês de [january 2018](time:2019-07-24T00:00:00.000+05:30)
-- me pega a [quantidade total de empréstimos](type:amount) [desembolsado](flag) no [last quarter](time:2019-07-24T00:00:00.000+05:30)
-- me passe a [quantidade total de empréstimos](type:amount) [desembolsado](flag) no [last quarter](time:2019-07-24T00:00:00.000+05:30)
+- me pega [empréstimos totais](type:count) [desembolsados](flag) no [último mês do último ano](time:2019-07-24T00:00:00.000+05:30)
+- me pega a [quantidade total de empréstimos](type:amount) [desembolsados](flag) no [mesmo mês do ano passado](time:2019-07-24T00:00:00.000+05:30)
+- me pega [empréstimos totais](type:count) [desembolsado](flag) no mês de [janeiro de 2018](time:2019-07-24T00:00:00.000+05:30)
+- me pega [empréstimos totais](type:count) [desembolsados](flag) no mês de [janeiro de 2018](time:2019-07-24T00:00:00.000+05:30)
+- me pega a [quantidade total de empréstimos](type:amount) [desembolsados](flag) no [último trimestre](time:2019-07-24T00:00:00.000+05:30)
+- me passe a [quantidade total de empréstimos](type:amount) [desembolsado](flag) no [último trimestre](time:2019-07-24T00:00:00.000+05:30)
 - diga-me [empréstimos totais](type:count) [desembolsado](flag) no [último](time:2019-07-24T00:00:00.000+05:30)
 - quantidade de [empréstimos totais](type:count) [desembolsado](flag) no [último mês do último ano](time:2019-07-24T00:00:00.000+05:30)
 
@@ -86,7 +98,7 @@
 - ano passado
 - último exercício financeiro
 - mês passado
-- Ultimo quarto
+- último trimestre
 - ontem
 - janeiro de 2018
 
